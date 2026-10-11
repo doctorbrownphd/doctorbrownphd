@@ -10,6 +10,7 @@ I've been writing software for 25 years. These projects are my own, built on my 
 
 - [RateMap New England](https://github.com/doctorbrownphd/ratemap-newengland): a bill calculator and rate explorer for 38 rate plans from 11 New England utilities. Every rate comes from a tariff filing. You can run synthetic load profiles or upload your own interval data, including Green Button XML.
 - [OpenSynth New England](https://github.com/doctorbrownphd/opensynth-newengland): synthetic 15-minute smart meter load profiles for New England homes. A conditional VAE trained on NREL ResStock data generates profiles by housing type, heating fuel, weather, and solar or EV ownership, checked against EIA and ISO-NE statistics.
+- [OpenSTEF Narrator](https://github.com/doctorbrownphd/openstef-narrator): plain-language situation reports for probabilistic feeder load forecasts. A template engine writes every number, an LLM only rephrases the prose around them, and a validator rejects any rewrite that adds or changes a fact.
 - A retrieval system over FERC and New England state commission filings, with hybrid search, page-level citations, and an evaluation harness. The code is private; I'm glad to demo it.
 
 ### Tools I use
